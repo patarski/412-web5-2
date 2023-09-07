@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shrikhand&family=Waiting+for+the+Sunrise&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #ff30a0;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+div {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: system-ui;
+    font-size: 5rem;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'poppins';
+    font-size: 3rem;
+}
+
+.sir {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    position: absolute;
+    align-items: end;
+}
+
+.sir-charlie {
+    width: 7rem;
+    animation: slide 5s ease-in-out forwards;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(500px);
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.emoji {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+}
+
+.ballon {
+    animation: ballon 3s ease-in-out infinite;
+    margin: 0;
+}
+
+@keyframes ballon {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.sparkle {
+    animation: sparkle 2s ease-in-out infinite;
+    margin: 0;
+    transform: rotateY(180deg);
+}
+
+@keyframes sparkle {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+section {
+    animation: fade-in 3s forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.gift {
+    font-size: 4rem;
+    margin: 3rem 0 1rem 0;
+    text-decoration: none;
+    z-index: 1;
+    animation: gift 6s ease-in-out forwards;
+}
+
+@keyframes gift {
+    0% {
+        scale: 0;
+    }
+
+    80% {
+        scale: 0;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+.tap {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 1.2rem;
+    color: black;
+    /* animation: tap 5s ease-in-out forwards; */
+}
+
+@keyframes tap {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    85% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    90% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    95% {
+        opacity: 1;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+article {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.charlie {
+    background-image: url(./img/charlie-2.jpg);
+}
+.harry {
+    background-image: url(./img/virgo\ copy.jpg);
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.fade {
+    animation: fade 5s ease-in-out forwards;
+}
+
+/* BUBBLE CODE */
+.speech-bubble {
+    position: relative;
+    background: #ffffff;
+    border-radius: .4em;
+    padding: 1rem 2rem;
+    animation: tap 7s ease-in-out forwards;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 34%;
+    width: 0;
+    height: 0;
+    border: 32px solid transparent;
+    border-top-color: #ffffff;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -16px;
+    margin-bottom: -30px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width:600px) {
+    article {
+        background-size: contain;
+    }
+}
