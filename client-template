@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Dimension</title>
+</head>
+<body>
+    <!-- NAV -->
+    <nav>
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Barbers</a></li>
+            <li><a href=""></a>Price</li>
+            <li><a href=""></a>Booking</li>
+            <li><a href=""></a>Join the Team!</li>
+            <li><a href=""></a>Contact</li>
+        </ul>
+    </nav>
+    <!-- HEADER -->
+    <header>
+        <h1>Salon Dimension</h1>
+        <h2>TAGLINE</h2>
+        <button>Book</button>
+    </header>
+    <!-- MAIN -->
+    <main>
+    <!-- ABOUT -->
+        <section>
+            <article>
+                <img src="https://placehold.co/600x400" alt="">
+                <h1>About Us</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorem consectetur, incidunt veniam eum eligendi repellat? A voluptatum quo fugit! Pariatur neque ea officiis sunt amet necessitatibus magni molestiae deserunt!</p>
+            </article>
+        </section>
+    <!-- BARBERS -->
+        <section>
+            <article>
+                <h1>Barbers</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sit vitae soluta excepturi asperiores inventore molestias laboriosam ipsa dolorum iusto natus hic vel accusamus harum placeat cum, tenetur dicta laborum!</p>
+            </article>
+            <div id="container">
+                <div>
+                    <h2>Tony</h2>
+                    <img src="https://placehold.co/400x600" alt="">
+                </div>
+                <div>
+                    <h2>Nader</h2>
+                    <img src="https://placehold.co/400x600" alt="">
+                </div>
+                <div>
+                    <h2>Sobie</h2>
+                    <img src="https://placehold.co/400x600" alt="">
+                </div>
+                <div>
+                    <h2>Bowser</h2>
+                    <img src="https://placehold.co/400x600" alt="">
+                </div>
+            </div>
+        </section>
+    <!-- PRICE & BOOKING -->
+        <section>
+            <article>
+                <h1>Price & Booking</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eligendi vitae libero, harum magnam, ipsam modi sed animi odit assumenda reprehenderit iste accusantium optio voluptates consequuntur voluptatem rerum quae consectetur!</p>
+                <table>
+                    <tr>
+                        <td>Service</td>
+                        <td>Price/Time</td>
+                    </tr>
+                    <tr>
+                        <td>Beard Trim/Shave</td>
+                        <td>35$/30min</td>
+                    </tr>
+                    <tr>
+                        <td>Haircut</td>
+                        <td>44$/45min</td>
+                    </tr>
+                    <tr>
+                        <td>Haircut + Beard</td>
+                        <td>53$/1hr</td>
+                    </tr>
+                    <tr>
+                        <td>Fullset</td>
+                        <td>65$/1hr</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    <!-- JOIN THE TEAM -->
+    <section>
+        <article>
+            <h1>Join the Dimension Crew!</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere repellat sunt nobis ea libero quidem doloribus atque veniam eius! Nostrum praesentium earum nemo doloribus corrupti atque totam, necessitatibus ipsa eligendi?</p>
+        </article>
+    </section>
+    <!-- CONTACT -->
+    <footer>
+        <h2>CONTACT</h2>
+        <a href="">INSTAGRAM</a>
+        <a href="">EMAIL</a>
+    </footer>
+    </main>
+</body>
+</html>
