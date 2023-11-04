@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+/* NAV BAR*/
+nav{
+    display:grid;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* HEADER */
+header{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+/* MAIN */
+main{
+    display: grid;
+    justify-content: center;
+    margin: 0 20vw;
+}
+/* BARBERS */
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+/* FOOTER */
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    /* padding: 3rem 20vw; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    justify-items: center;
+}
+
+.contact, .social-media, .links{
+    display: grid;
+    height: fit-content;
+}
+
+a:visited{
+    color: inherit;
+}
+
+footer h3{
+    font-size: 1rem;
+    line-height: 1;
+}
+
+h4{
+    margin: 0;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 0.8rem;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 0.2rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+.sm-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    width: min-content;
+    gap: 0.5rem;
+    align-items: center;
+}
+.sm-icon>img{
+    width: 1rem;
+}
