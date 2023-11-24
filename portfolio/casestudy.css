@@ -5,3 +5,12 @@ body{
 header{
     height: 50vh;
 }
+/* Description */
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tools{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
